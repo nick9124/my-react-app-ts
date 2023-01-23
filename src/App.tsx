@@ -1,8 +1,15 @@
-import { Routes, Route, useNavigationType, useLocation } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigationType,
+  useLocation,
+} from 'react-router-dom';
 import CareerCenter from './pages/CareerCenter';
+import NotFound from './pages/NotFound';
 import { useEffect } from 'react';
 
-function App() {
+export function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
@@ -41,7 +48,15 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<CareerCenter />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
-export default App;
+
+export function WrappedApp() {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+}
