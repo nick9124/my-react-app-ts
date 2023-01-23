@@ -1,0 +1,41 @@
+@import './custom-imports.css';
+
+body {
+  background-color: white;
+  font-family: Poppins, Inter, sans-serif;
+  line-height: normal;
+}
+
+.S2 {
+  @apply w-full bg-blSky-700 py-20;
+}
+
+.S4 {
+  @apply w-full bg-whGray-200 py-12;
+}
+
+.S5 {
+  @apply w-full py-10;
+}
+
+.S6 {
+  @apply bg-whGray-200 py-10;
+}
+
+footer {
+  h5 {
+    @apply text-[15px] font-semibold leading-[24px] text-blSky-100;
+  }
+
+  h6 {
+    @apply text-[11px] font-semibold leading-[17px] text-blSky-100;
+  }
+
+  a {
+    @apply text-[14px] leading-[26px] text-gray-400 no-underline hover:text-white;
+  }
+}
+
+.inputOutline {
+  @apply border-0 bg-inherit text-sm text-slate-300 shadow-sm ring-2 ring-blSky-100 focus:border-0 focus:ring-2 focus:ring-blSky-100;
+}

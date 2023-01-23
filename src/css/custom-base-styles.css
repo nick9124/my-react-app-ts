@@ -1,0 +1,7 @@
+/* ---------------custom_base--------------- */
+
+@layer base {
+    select {
+        bg-[url('/img/chevron-down.svg')]
+    }
+}
