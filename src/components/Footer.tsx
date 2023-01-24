@@ -24,22 +24,22 @@ const Footer = () => {
               </a>
               <ul className="social-link list-unstyled mt-3 flex flex-row flex-wrap gap-5">
                 <li>
-                  <a href="#." rel="noreferrer" target="_blank">
+                  <a href="#." target="_blank">
                     <Icon icon={faLinkedin} size="xl"></Icon>
                   </a>
                 </li>
                 <li>
-                  <a href="#." rel="noreferrer" target="_blank">
+                  <a href="#." target="_blank">
                     <Icon icon={faTwitter} size="xl"></Icon>
                   </a>
                 </li>
                 <li>
-                  <a href="#." rel="noreferrer" target="_blank">
+                  <a href="#." target="_blank">
                     <Icon icon={faFacebookF} size="xl"></Icon>
                   </a>
                 </li>
                 <li>
-                  <a href="#." rel="noreferrer" target="_blank">
+                  <a href="#." target="_blank">
                     <Icon icon={faYoutube} size="xl"></Icon>
                   </a>
                 </li>
