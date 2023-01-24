@@ -26,7 +26,7 @@ const people = [
   },
   {
     id: 5,
-    name: 'Benglore',
+    name: 'Banglore',
     unavailable: false,
   },
   {
